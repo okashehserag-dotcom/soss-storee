@@ -9,7 +9,7 @@
 <body>
 
 <header class="header">
-  <a href="category1.html">⬅ رجوع</a>
+  <a href="javascript:history.back()">⬅ رجوع</a>
 </header>
 
 <div class="slider">
@@ -20,13 +20,12 @@
   </div>
 </div>
 
-<p class="desc">
-  وصف المنتج تكتبه لاحقًا
-</p>
+<div class="product-info">
+  <p>وصف المنتج يوضع هنا لاحقًا</p>
 
-<a href="https://instagram.com/sos_sstorre" class="insta-btn" target="_blank">
-  تواصل عبر إنستغرام
-</a>
+  <button onclick="like()">❤️ لايك</button>
+  <span id="likes">0</span>
+</div>
 
 <script src="script.js"></script>
 </body>
